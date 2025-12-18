@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="mystyle.css" rel="stylesheet">
+
+<!--Color Scheme	
+    YinMn-blue #325787
+    YinMn-blue #4259880
+    Space-Cadet #3D3D52
+    Gunmetal #132932
+    Vanilla #E0D89A 
+-->
+
+  <style>
+    header {
+      text-align: center;
+      background: url('Images/Jeus.jpg');
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/adam.jpg" width="170px"></a>
+    <h1>Adam Miller</h1>
+    <ul>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="Education.html">Education</a></li>   
+      <li><a href="Experience.html">Experience</a></li>
+      <li><a href="Reference.html">Reference</a></li>
+    </ul>
+  </header>
+  <article>
+   <h2>Experience</h2>
+    <p>I have experience in many things, I have been in school for 10 years and ive been doing my best all throughout the years. I also have a lot of experience in sports, I was on the mounten bike team for 5 years and did realy well in it. I quit after my 5th year to do another sport, I wanted to try weightlifting. Ive been doing that for over a year now so I am pretty strong and am able to do hard labor. my strength can come in handy on the workfeild.</p>
+    <button>Like</button>
+  </article>
+  <article>
+     <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

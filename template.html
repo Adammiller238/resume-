@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <link href="mystyle.css" rel="stylesheet">
+
+<!--Color Scheme	
+    YinMn-blue #325787
+    YinMn-blue #4259880
+    Space-Cadet #3D3D52
+    Gunmetal #132932
+    Vanilla #E0D89A 
+-->
+
+  <style>
+    header {
+      text-align: center;
+      background: url('Images/Jeus.jpg');
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/adam.jpg" width="170px"></a>
+    <h1>Adam Miller</h1>
+    <ul>
+      <li><a href="About Me.html">About Me</a></li>
+      <li><a href="Education.html">Education</a></li>   
+      <li><a href="Expereince.html">Expereince</a></li>
+      <li><a href="Refrence.html">Refrence</a></li>
+    </ul>
+  </header>
+  <article>
+   <h2>About me</h2>
+    <p>My name is Adam Miller, i grew up in calvert city KY, I was a verry hyper kid but now that ive grown up im quiet around people I dont know. im always greatfull to wake up another day, andy day that God lets be breathe is a good day to me. I am also verry strong in my faith, i hope one day when im retired i can become a pastor..</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Things im good at</h2>
+    <p> I was on the Mounten Bike team for 5 years, and I was pretty good at it. I made a lot of frends there, another thing im good at is making frends. I am a pretty funny guy once you get to know me, so its easy for me to make frends. I did quit the MTB team after my fith year to do another sport that I want to persu, I started weightlifting. I have now been able to build up a lot of strength, especially for my size</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>My favorite Bible Verse</h2>
+    <p>One of my favorites is corinthians 13:13 "And now these three remain: faith, hope and love. But the greatest of these is love" Many people like to think love is a curse, or somthing we should fear, even though its far from the truth. Another one I like is Joel 2:12-13, which says: “Even now,” declares the Lord, “return to me with all your heart, with fasting and weeping and mourning.” it always reminds me that I dont need to hide anything from the lord. hurting is not somthing is not somthing we should fear, because through hurting I found the lord. </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+

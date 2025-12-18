@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <link href="mystyle.css" rel="stylesheet">
+
+<!--Color Scheme	
+    YinMn-blue #325787
+    YinMn-blue #4259880
+    Space-Cadet #3D3D52
+    Gunmetal #132932
+    Vanilla #E0D89A 
+-->
+
+  <style>
+    header {
+      text-align: center;
+      background: url('Images/Jeus.jpg');
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Images/adam.jpg" width="170px"></a>
+    <h1>Adam Miller</h1>
+    <ul>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="Education.html">Education</a></li>   
+      <li><a href="Experience.html">Experience</a></li>
+      <li><a href="Reference.html">Reference</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>Reference 1</h2>
+    <p>Here I have my reference, he was a MTB coach when I was on the team. The number is 270-252-8890, his name is Dwayne. He was a friend of my dad and has helped him rase me and I am verry greatfull, here is what he had to say. "That boy is verry stubborn sometimes, when he was a little boy he would just stay on his ipad but now he's grown into a man. He does a lot of sports and is a hard worker when you give him the right motivation"    </p>
+     <button>Like</button>
+  </article>
+  <article>
+    <h2>Reference 2</h2>
+    <p>Brent Powll. he is a MTB coach, and ive known him for more than 5 years. He is also a pastor and helper at the three crosses Church. His number is 270-564-3306 </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Reference 3</h2>
+    <p>Shannon Cathey. He is the main pastor at three crosses church, and has seen me grow in my faith first hand. His number is 270-703-1154 </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+
